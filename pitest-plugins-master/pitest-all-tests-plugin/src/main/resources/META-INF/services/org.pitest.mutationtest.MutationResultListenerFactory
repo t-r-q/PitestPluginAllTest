@@ -1,0 +1,2 @@
+org.pitest.plugins.alltests.reporting.csv.CsvReportFactory
+org.pitest.plugins.alltests.reporting.xml.XmlReportFactory
