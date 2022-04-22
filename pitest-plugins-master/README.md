@@ -21,7 +21,7 @@ To use these plugins via maven add them as dependencies to the pitest-maven plug
         <dependencies>
           <dependency>
             <groupId>org.pitest.plugins</groupId>
-            <artifactId>pitest-high-isolation-plugin</artifactId>
+            <artifactId>pitest-all-tests-plugin</artifactId>
             <version>0.1-SNAPSHOT</version>
           </dependency>
         </dependencies>
