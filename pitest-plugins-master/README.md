@@ -27,8 +27,15 @@ To use these plugins via maven add them as dependencies to the pitest-maven plug
         </dependencies>
 
         <configuration>
-		blah
-        </configuration>
+		<mutators>
+		    <mutator>ALL</mutator>
+		</mutators>
+					
+		<outputFormats>
+		   <outputFormat>XML</outputFormat>
+		   <outputFormat>CSV</outputFormat>
+		</outputFormats>
+	</configuration>
       </plugin>
 ```
 
